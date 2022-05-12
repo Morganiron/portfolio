@@ -418,12 +418,12 @@ footer>p {
 	#nav li {
 		float: center;
 		font-size: 75%;
-		margin: -1%;
+		margin-left: -1.75%;
 	}
 
 	.container {
 		width: 100%;
-		max-width: calc(100% - 30px);
+
 	}
 
 	.container.medium {
