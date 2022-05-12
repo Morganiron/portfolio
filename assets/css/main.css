@@ -434,6 +434,7 @@ footer>p {
 /* Row */
 
 .row {
+	float: center;
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
@@ -677,10 +678,12 @@ footer>p {
 @media screen and (max-width: 1680px) {
 
 	.row {
+		float: center;
+		position: relative;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 	.row>* {
@@ -922,10 +925,12 @@ footer>p {
 @media screen and (max-width: 1280px) {
 
 	.row {
+		position: relative;
+		float: center;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 	.row>* {
@@ -1167,10 +1172,12 @@ footer>p {
 @media screen and (max-width: 980px) {
 
 	.row {
+		position: relative;
+		float: center;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 	.row>* {
@@ -1412,10 +1419,12 @@ footer>p {
 @media screen and (max-width: 736px) {
 
 	.row {
+		position: relative;
+		float: center;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 	.row>* {
