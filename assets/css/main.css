@@ -380,12 +380,12 @@ footer>p {
 	}
 
 	.container.medium {
-		width: 75%;
+		width: 100%;
 	}
 
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
 
 	.container {
 		width: 100%;
@@ -434,11 +434,13 @@ footer>p {
 /* Row */
 
 .row {
+	justify-content: center;
 	float: center;
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
+
 }
 
 .row>* {
@@ -683,7 +685,7 @@ footer>p {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: center;
+		align-items: stretch;
 	}
 
 	.row>* {
@@ -926,11 +928,10 @@ footer>p {
 
 	.row {
 		position: relative;
-		float: center;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: center;
+		align-items: stretch;
 	}
 
 	.row>* {
@@ -1173,11 +1174,12 @@ footer>p {
 
 	.row {
 		position: relative;
-		float: center;
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		box-sizing: border-box;
-		align-items: center;
+		align-items: stretch;
+
+
 	}
 
 	.row>* {
@@ -1257,11 +1259,11 @@ footer>p {
 	}
 
 	.row>.col-6-medium {
-		width: 50%;
+		width: 40%;
 	}
 
 	.row>.off-6-medium {
-		margin-left: 50%;
+		margin-left: 25%;
 	}
 
 	.row>.col-7-medium {
@@ -1416,7 +1418,7 @@ footer>p {
 
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
 
 	.row {
 		position: relative;
@@ -1424,7 +1426,7 @@ footer>p {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: center;
+		align-items: stretch;
 	}
 
 	.row>* {
@@ -2405,7 +2407,7 @@ body>article {
 
 /* Small */
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
 
 	/* Basic */
 
