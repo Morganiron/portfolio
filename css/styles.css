@@ -1,0 +1,173 @@
+/*Syle sheet created by: Robert Morgan 6/17/2020 */
+
+
+/* Styles for mobile layout */
+
+/* Style to format the name at the top of the page */
+.myname {
+	background-color: #24b6c9;
+	border-bottom: 2px black solid;
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+	color: #ffffff;
+	text-shadow: 0.05em 0.05em #000000;
+	text-align: center;
+}
+
+/* Style to format profile photo */
+.float-left {
+	float: left;
+}
+
+/* Style specifies image size and margin */
+img {
+	max-width: 30%;
+	min-width: 30%;
+	margin-bottom: 2%;
+	margin-right: 1%;
+	box-shadow: .1em .1em #151515;
+}
+
+/* Style specifies margins for figure element */
+figure {
+	margin-left: 2%;
+	margin-bottom: 5em;
+}
+
+/* Style sets the margins and color for the outerwrapper */
+#outerwrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f5f5f5;
+}
+
+/* Style to make header fluid */
+header {
+	font-size: 1em;
+	margin-bottom: 20%;
+}
+
+/* Style for the nav specifies text properties and margin */
+nav {
+	margin-top: 3em;
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color: #24b6c9;
+	border-radius: 2em;
+	text-align: center;
+	text-shadow: 0.05em 0.05em #151515;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style to format main */
+#main {
+	margin: 2em;
+	clear: both;
+	background-color: #71b0b0;
+	padding: 2%;
+	border: .1em black solid;
+	border-radius: .75em;
+}
+
+/* Style to format article elements */
+article {
+	background-color: #dee7fc;
+	border-radius: .75em;
+	padding: 2%;
+	margin: .75em;
+	box-shadow: -.2em -.2em #f5f5f5;
+}
+
+/* Style to format section elements */
+section {
+	background-color: #f5f5f5;
+	border: .1em white solid;
+	padding: 3%;
+	box-shadow: .2em .2em #d5d5d5;
+}
+
+/* Style to specify margins in the paragraph elements in the sections */
+section li {
+	margin: .5em;
+	list-style-type: square;
+}
+
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #000000;
+}
+
+/* Style for anchor elements within the footer */
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 660px) {
+
+	header {
+		font-size: 1em;
+		margin-bottom: 10%;
+	}
+
+	/* Style specifies margins for nav element */
+	nav {
+		font-size: 1em;
+		margin-top: 3em;
+	}
+
+	/* Style specifies a horizontal display for navigation links */
+	nav li {
+		float: left;
+		display: inline;
+		margin-right: .3em;
+		padding-left: 0;
+		padding-right: 0;
+		width: 10%;
+		white-space: nowrap;
+		border-radius: 0;
+	}
+
+	/* Style specifies to display the desktop class */
+	.desktop {
+		display: inline;
+	}
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+@media only screen and (min-width: 830px) {
+
+	/* Style specifies font size for name at top of page */
+	.myname {
+		font-size: 3em;
+	}
+
+}
