@@ -1799,8 +1799,14 @@ article:last-child {
 }
 
 .image.fit {
-	display: fit;
-	width: 100%;
+	display: block;
+
+	border-radius: 50px;
+	border: 0;
+	padding: 20px;
+	max-width: 100%;
+	height: auto;
+
 }
 
 .image.featured {
