@@ -337,6 +337,11 @@ footer>p {
 	font-size: 1.25em;
 }
 
+/* Summary */
+div>p {
+	font-size: 16pt;
+}
+
 /* Container */
 
 .container {
@@ -1794,7 +1799,7 @@ article:last-child {
 }
 
 .image.fit {
-	display: block;
+	display: fit;
 	width: 100%;
 }
 
