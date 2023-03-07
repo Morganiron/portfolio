@@ -378,7 +378,7 @@ div>p {
 
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
 
 	.container {
 		width: 100%;
@@ -388,9 +388,9 @@ div>p {
 		width: 100%;
 	}
 
-}
+} */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
 	.container {
 		width: 100%;
@@ -1423,7 +1423,7 @@ div>p {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
 	.row {
 		position: relative;
@@ -2418,7 +2418,7 @@ body>article {
 
 /* Small */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
 	/* Basic */
 
