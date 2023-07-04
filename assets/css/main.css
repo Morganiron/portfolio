@@ -195,7 +195,7 @@ textarea,
 select {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.85em;
-	color: #888;
+	color: #000000;
 	font-weight: 300;
 	font-size: 13pt;
 }
@@ -241,9 +241,10 @@ sup {
 }
 
 blockquote {
-	border-left: solid 0.75em #eee;
+	font-weight: initial;
+	border-left: solid 0.75em #d4eff7;
 	padding: 1em 0 1em 1.5em;
-	font-style: italic;
+	font-style:normal;
 }
 
 h1,
@@ -346,8 +347,8 @@ div>p {
 
 .container {
 	margin: 0 auto;
-	max-width: calc(100% - 50px);
-	width: 1200px;
+	max-width: 95vw;
+	width: 90vw;
 }
 
 .container.medium {
@@ -357,7 +358,7 @@ div>p {
 @media screen and (max-width: 1680px) {
 
 	.container {
-		width: 1200px;
+		width: 95vw;
 	}
 
 	.container.medium {
@@ -378,23 +379,16 @@ div>p {
 
 }
 
-/* @media screen and (max-width: 980px) {
-
-	.container {
-		width: 100%;
-	}
-
-	.container.medium {
-		width: 100%;
-	}
-
-} */
-
 @media screen and (max-width: 1000px) {
 
 	.container {
 		width: 100%;
 		max-width: calc(100% - 30px);
+	}
+
+	#contact .container .row {
+		margin: auto;
+		max-width: 75vw;
 	}
 
 	#nav {
@@ -409,6 +403,24 @@ div>p {
 	}
 
 }
+
+@media screen and (max-width: 980px) {
+
+	.container {
+		width: 100%;
+	}
+
+	#contact .container .row {
+		margin: auto;
+		max-width: 95vw;
+	}
+
+	.container.medium {
+		width: 100%;
+	}
+
+} 
+
 
 @media screen and (max-width: 390px) {
 
@@ -446,6 +458,10 @@ div>p {
 	box-sizing: border-box;
 	align-items: stretch;
 
+}
+
+#work .row {
+	flex-wrap: nowrap;
 }
 
 .row>* {
@@ -691,6 +707,11 @@ div>p {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+	}
+
+	#work .row {
+		flex-wrap: nowrap;
+		flex-direction: row;
 	}
 
 	.row>* {
@@ -1185,6 +1206,10 @@ div>p {
 		align-items: stretch;
 
 
+	}
+
+	#work .row {
+		flex-wrap: wrap;
 	}
 
 	.row>* {
@@ -2162,7 +2187,7 @@ ul.actions li:first-child {
 .wrapper {
 	background-image: url("images/bg.png");
 	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-	padding: 8em 0 8em 0;
+	padding: 1em 0 1em 0;
 	text-align: center;
 }
 
@@ -2279,6 +2304,7 @@ ul.actions li:first-child {
 /* Articles */
 
 body>article {
+	margin-right:0%;
 	margin-bottom: 0;
 }
 
@@ -2296,6 +2322,11 @@ body>article {
 
 #top .image img {
 	border-radius: 100%;
+}
+
+#top .badge {
+	max-width: 12cqmax;
+	
 }
 
 #top h1 {
@@ -2497,6 +2528,8 @@ body>article {
 	.button.large {
 		font-size: 1.2em;
 		letter-spacing: 0;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 	/* Social */
